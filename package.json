@@ -1,21 +1,19 @@
 {
-  "name": "the_archives",
-  "version": "1.0.0",
-  "description": "Interface for managing data about the galaxy.",
-  "main": "index.js",
-  "repository": "https://github.com/stevegood/the_archives.git",
-  "author": "Steve Good <sgood@lanctr.com>",
-  "license": "MIT",
+  "name": "the-archives",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start -p ${PORT:=3000}",
-    "heroku-postbuild": "next build"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "next": "^4.1.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "body-parser": "~1.18.2",
+    "box-node-sdk": "^1.9.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dotenv": "^4.0.0",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5"
   }
 }
