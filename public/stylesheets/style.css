@@ -6,3 +6,32 @@ body {
 a {
   color: #00B7FF;
 }
+
+.upload-image {
+  border: rgb(219, 219, 219) solid 1px;
+  background-color: rgb(243, 246, 252);
+  width: 500px;
+  padding: 7px;
+}
+
+.upload-image p {
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: rgb(219, 219, 219) solid 1px;
+  padding-bottom: 7px;
+}
+
+.upload-image .select {
+  border-bottom: rgb(219, 219, 219) solid 1px;
+  padding-bottom: 7px;
+}
+
+.upload-image .file {
+  border-bottom: rgb(219, 219, 219) solid 1px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+.upload-image .submit {
+  padding-top: 7px;
+}

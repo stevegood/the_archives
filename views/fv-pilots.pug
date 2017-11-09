@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  div.upload-image
+    p Upload an image that contains a pilot card
+    div.select
+      select
+        each pilot in pilots
+          option(value=pilot.xws + '-' + pilot.id)= pilot.name + ' (' + pilot.faction + ') [' + pilot.ship + ']'
+    div.file
+      input(type='file', name='image', accept='image/*')
+    div.submit
+      button(type='submit') Upload Image
